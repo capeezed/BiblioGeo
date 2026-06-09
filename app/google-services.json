@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "225235665166",
+    "firebase_url": "https://geobiblioteca-e0dbf-default-rtdb.firebaseio.com",
+    "project_id": "geobiblioteca-e0dbf",
+    "storage_bucket": "geobiblioteca-e0dbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225235665166:android:bb0d2674adc29ea156175f",
+        "android_client_info": {
+          "package_name": "com.exemple.afbiblioteca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLwgSSSeCmjmnqeeKY96YFx_1Zb3VVlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225235665166:android:af377da82d78da8f56175f",
+        "android_client_info": {
+          "package_name": "com.facens.bibliogeo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpLwgSSSeCmjmnqeeKY96YFx_1Zb3VVlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_titulo_tela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar livros"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_subtitulo_tela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Digite um titulo, autor ou palavra-chave."
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edit_busca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:hint="Ex: Machado de Assis"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/button_ver_salvos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver livros salvos" />
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nenhuma busca feita ainda." />
+
+    <TextView
+        android:id="@+id/text_livro_selecionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nenhum livro selecionado." />
+
+    <TextView
+        android:id="@+id/text_coordenadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coordenadas ainda nao capturadas." />
+
+    <Spinner
+        android:id="@+id/spinner_situacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_observacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Observacao pessoal"
+        android:inputType="textMultiLine"
+        android:minLines="2" />
+
+    <Button
+        android:id="@+id/button_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar livro selecionado" />
+
+    <ListView
+        android:id="@+id/list_livros_api"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
